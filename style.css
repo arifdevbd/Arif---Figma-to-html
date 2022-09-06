@@ -77,7 +77,7 @@ nav.scrolled {
 
 nav .logo a {
     font-family: "Raleway", sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 900;
     text-decoration: none;
     color: var(--white-color);
@@ -567,7 +567,7 @@ footer .copyright {
 
     nav.mobile-nav{
         width: 100%;
-        padding: 16px 100px;
+        padding: 8px 100px;
         display: flex;
         justify-content: space-between;
     }
@@ -578,7 +578,7 @@ footer .copyright {
 
     nav.mobile-nav.scrolled {
         background: var(--light-blue-color);
-        padding: 12px 100px;
+        padding: 8px 100px;
         top: 0;
         border-radius: 0 0 8px 8px;
         box-shadow: 0 16px 14px -8px rgba(0, 0, 0, 0.3);
@@ -749,6 +749,10 @@ footer .copyright {
     .hero-section .right img {
         height: 500px;
     }
+
+    nav .logo a{
+        font-size: 26px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -757,11 +761,11 @@ footer .copyright {
     }
 
     nav.mobile-nav{
-        padding: 16px 32px;
+        padding: 8px 32px;
     }
 
     nav.mobile-nav.scrolled{
-        padding: 16px 32px;
+        padding: 8px 32px;
     }
 
     .hero-section .left h1{
